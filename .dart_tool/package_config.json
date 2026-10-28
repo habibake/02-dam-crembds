@@ -3,97 +3,97 @@
   "packages": [
     {
       "name": "async",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/async-2.13.1",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.13.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "characters",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/characters-1.4.1",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/characters-1.4.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "collection",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/collection-1.19.1",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.19.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "flutter",
-      "rootUri": "file:///C:/src/flutter/packages/flutter",
+      "rootUri": "file:///C:/Users/smart/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
     {
       "name": "http",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/http-1.6.0",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.6.0",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "http_parser",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/http_parser-4.1.2",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/material_color_utilities-0.13.0",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.13.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/meta-1.19.0",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.19.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
     {
       "name": "path",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/path-1.9.1",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.9.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///C:/src/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///C:/Users/smart/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
     {
       "name": "source_span",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/source_span-1.10.2",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.2",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "string_scanner",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/string_scanner-1.4.1",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.4.1",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "term_glyph",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/term_glyph-1.2.2",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.2",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/typed_data-1.4.0",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/typed_data-1.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/vector_math-2.4.4",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.4.4",
       "packageUri": "lib/",
       "languageVersion": "3.10"
     },
     {
       "name": "web",
-      "rootUri": "file:///C:/pub_cache/hosted/pub.dev/web-1.1.2",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/web-1.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.13"
     },
@@ -106,7 +106,7 @@
   ],
   "generator": "pub",
   "generatorVersion": "3.13.4",
-  "flutterRoot": "file:///C:/src/flutter",
+  "flutterRoot": "file:///C:/Users/smart/flutter",
   "flutterVersion": "3.47.5",
-  "pubCache": "file:///C:/pub_cache"
+  "pubCache": "file:///C:/Users/smart/AppData/Local/Pub/Cache"
 }
