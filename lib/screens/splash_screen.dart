@@ -57,59 +57,69 @@ class _SplashScreenState extends State<SplashScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF1B5E20),
-      body: Center(
-        child: FadeTransition(
-          opacity: _fadeAnim,
-          child: ScaleTransition(
-            scale: _scaleAnim,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  width: 120,
-                  height: 120,
+      backgroundColor: const Color(0xFFF1F6F2),
+      body: SafeArea(
+        child: Center(
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.all(24),
+            child: FadeTransition(
+              opacity: _fadeAnim,
+              child: ScaleTransition(
+                scale: _scaleAnim,
+                child: Container(
+                  width: 420,
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 28, vertical: 40),
                   decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.15),
-                    shape: BoxShape.circle,
-                  ),
-                  child: const Icon(
-                    Icons.restaurant_menu,
-                    size: 64,
                     color: Colors.white,
+                    borderRadius: BorderRadius.circular(24),
+                    border: Border.all(color: const Color(0xFFDCE7DD)),
+                  ),
+                  child: const Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(
+                        Icons.restaurant_menu,
+                        size: 64,
+                        color: Color(0xFF1B5E20),
+                      ),
+                      SizedBox(height: 24),
+                      Text(
+                        'Platillos\nAncestrales',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Color(0xFF1B5E20),
+                          fontSize: 30,
+                          height: 1.2,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        'de Quintana Roo',
+                        style:
+                            TextStyle(fontSize: 16, color: Color(0xFF526255)),
+                      ),
+                      SizedBox(height: 32),
+                      SizedBox(
+                        width: 140,
+                        child: LinearProgressIndicator(
+                          minHeight: 5,
+                          borderRadius: BorderRadius.all(Radius.circular(8)),
+                          color: Color(0xFF1B5E20),
+                          backgroundColor: Color(0xFFE5EEE6),
+                        ),
+                      ),
+                      SizedBox(height: 12),
+                      Text(
+                        'Cargando el recetario...',
+                        style:
+                            TextStyle(fontSize: 13, color: Color(0xFF526255)),
+                      ),
+                    ],
                   ),
                 ),
-                const SizedBox(height: 28),
-                const Text(
-                  'Platillos Ancestrales',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 26,
-                    fontWeight: FontWeight.bold,
-                    letterSpacing: 0.5,
-                  ),
-                ),
-                const SizedBox(height: 6),
-                const Text(
-                  'de Quintana Roo',
-                  style: TextStyle(
-                    color: Color(0xFFA5D6A7),
-                    fontSize: 18,
-                    fontWeight: FontWeight.w400,
-                  ),
-                ),
-                const SizedBox(height: 48),
-                const SizedBox(
-                  width: 32,
-                  height: 32,
-                  child: CircularProgressIndicator(
-                    strokeWidth: 3,
-                    valueColor: AlwaysStoppedAnimation<Color>(
-                      Color(0xFFA5D6A7),
-                    ),
-                  ),
-                ),
-              ],
+              ),
             ),
           ),
         ),
