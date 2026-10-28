@@ -45,7 +45,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.19.0",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.18.3",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
@@ -87,7 +87,7 @@
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.4.4",
+      "rootUri": "file:///C:/Users/smart/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.10"
     },
